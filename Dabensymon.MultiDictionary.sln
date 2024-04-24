@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dabensymon.MultiDictionary", "src\Dabensymon.MultiDictionary\Dabensymon.MultiDictionary.csproj", "{F83D599A-CC0F-48C2-81D3-C8809CB29959}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0DED3FCA-B879-4F67-8EF0-CF2C1094B994}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{7A5B2FC1-116C-48F8-989B-C0E3DC1D7C55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{FA7BB5B8-B9DE-4E5F-B1D2-085E7C357372}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dabensymon.MultiDictionary.Tests", "tests\Dabensymon.MultiDictionary.Tests\Dabensymon.MultiDictionary.Tests.csproj", "{0420E3DC-FF04-4489-A291-F22CC2325152}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F83D599A-CC0F-48C2-81D3-C8809CB29959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F83D599A-CC0F-48C2-81D3-C8809CB29959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F83D599A-CC0F-48C2-81D3-C8809CB29959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F83D599A-CC0F-48C2-81D3-C8809CB29959}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0420E3DC-FF04-4489-A291-F22CC2325152}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0420E3DC-FF04-4489-A291-F22CC2325152}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0420E3DC-FF04-4489-A291-F22CC2325152}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0420E3DC-FF04-4489-A291-F22CC2325152}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F83D599A-CC0F-48C2-81D3-C8809CB29959} = {0DED3FCA-B879-4F67-8EF0-CF2C1094B994}
+		{0420E3DC-FF04-4489-A291-F22CC2325152} = {7A5B2FC1-116C-48F8-989B-C0E3DC1D7C55}
+	EndGlobalSection
+EndGlobal

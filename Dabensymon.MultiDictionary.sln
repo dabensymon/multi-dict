@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "assets", "assets", "{FA7BB5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dabensymon.MultiDictionary.Tests", "tests\Dabensymon.MultiDictionary.Tests\Dabensymon.MultiDictionary.Tests.csproj", "{0420E3DC-FF04-4489-A291-F22CC2325152}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dabensymon.MultiDictionary.Benchmark", "tests\Dabensymon.MultiDictionary.Benchmark\Dabensymon.MultiDictionary.Benchmark.csproj", "{83CA583E-63F4-4AE5-9506-320B63FE4034}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +31,14 @@ Global
 		{0420E3DC-FF04-4489-A291-F22CC2325152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0420E3DC-FF04-4489-A291-F22CC2325152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0420E3DC-FF04-4489-A291-F22CC2325152}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83CA583E-63F4-4AE5-9506-320B63FE4034}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83CA583E-63F4-4AE5-9506-320B63FE4034}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83CA583E-63F4-4AE5-9506-320B63FE4034}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83CA583E-63F4-4AE5-9506-320B63FE4034}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F83D599A-CC0F-48C2-81D3-C8809CB29959} = {0DED3FCA-B879-4F67-8EF0-CF2C1094B994}
 		{0420E3DC-FF04-4489-A291-F22CC2325152} = {7A5B2FC1-116C-48F8-989B-C0E3DC1D7C55}
+		{83CA583E-63F4-4AE5-9506-320B63FE4034} = {7A5B2FC1-116C-48F8-989B-C0E3DC1D7C55}
 	EndGlobalSection
 EndGlobal
